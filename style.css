@@ -1,0 +1,50 @@
+.game{
+    background-color:rgb(165, 247, 219);
+    
+}
+.containerGame{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: lavenderblush;
+}
+a:link{
+  color:blue;
+}
+a:visited{
+  color:blue;
+}
+p{font-size: large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: blueviolet;
+  text-align: center;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  color:rgb(79, 174, 230);
+  padding-left: 50px;
+  background-color: rgb(239, 185, 247);
+}
+.body{
+background-color: rgb(243, 194, 239);
+}
+.game{
+  position:relative;
+}
+.game p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  font-size: 30px;
+  transform:translate(-50%,-50%);
+  opacity: 0;
+}
+.game:hover p{
+  opacity:1;
+}
+.game:hover img{
+  opacity: 0.3;
+}
+
+
